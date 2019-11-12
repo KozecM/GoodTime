@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+#nav h1 {
+    line-height: 50px;
+    float: left;
+    font-family: monospace;
+    font-size: 45px;
+    margin-left: 10%;
+}
+
+#nav h1 span {
+    color: royalblue;
+}
+
+ul {
+    list-style: none;
+    margin-right: 10%;
+}
+
+#nav {
+    height: 50px;
+}
+
+#menu-items {
+    float: right;
+}
+
+#menu-items li {
+    float: left;
+}
+
+#nav a {
+    color: black;
+    display: block;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100px;
+    text-decoration: none;
+    line-height: 50px;
+    
+}
+
+#nav a:hover {
+    background-color: #c9d5ff;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/students2.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  font-family: monospace;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 60px;
+}
+
+#buyNow {
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 300px;
+    height: 100px;
+    border-radius: 30px;
+    border: 3px solid #FFFFFF;
+    background-color: rgb(0, 0, 0, .1);
+    line-height: 100px;
+    margin: 0px auto;
+}
+
+#buyNow:hover {
+    /* background-color: rgb(65, 105, 255, .1); */
+    /* border: 3px solid rgb(65, 105, 255);
+    color: rgb(65, 105, 255); */
+    border: 3px solid orange;
+    cursor: pointer;
+}
+
+#buyNow a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    width: 300px;
+    height: 100px;
+    border-radius: 30px;
+}
+
+#buyNow a:hover {
+    color: orange;
+}
+
+#feature-container {
+    background: url('./images/school.png');
+    padding: 60px;
+}
+
+#feature-items {
+    width: 1380px;
+    margin: 0px auto;
+    
+    overflow: hidden;
+}
+
+#feature-items li {
+    float: left;
+    margin-right: 50px;
+}
+
+.f1, .f2, .f3 {
+    width: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#schools-container {
+    height: 300px;
+    padding: 60px;
+    text-align: center;
+    background: url('./images/dot-grid.png');
+}
+
+#school-items {
+    width: 1100px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+#school-items li {
+    text-align: center;
+    line-height: 300px;
+    float: left;
+}
+
+#s1, #s2, #s3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 60px;
+    background: tomato;
+}
